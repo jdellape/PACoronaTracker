@@ -1,0 +1,1 @@
+C:\Users\della\Anaconda3\python.exe "C:/Users/della/GitProjects/PACoronaTracker/.py/ScrapePACoronaInfo.py" pause
