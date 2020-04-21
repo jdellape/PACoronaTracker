@@ -81,6 +81,7 @@ df.insert(4, "As of", str(pd.Timestamp.now())[:10])
 
 #Export the dataframe to csv
 #Grab the date from the dataframe 'As of' column
+path = 'C:/Users/della/GitProjects/PACoronaTracker/'
 date = df['As of'][0]
-df.to_csv('data/confirmed_cases_by_county_' + date + '.csv', header=False)
+df.to_csv(path + 'data/confirmed_cases_by_county_' + date + '.csv', header=False)
 
